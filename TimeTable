@@ -1,0 +1,39 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int num;
+	
+	printf("This is Time Table");
+	
+	printf("\nPlease Enter a number to know the schedule: ");
+		scanf("%d", &num);
+		
+	if(num ==1){
+		printf("\nToday is ICT class at 9:00 AM to 12:00 PM");
+	}
+	else if(num == 2){
+		printf("\nToday is Programming class at 9:00 AM to 12:00 PM");
+	}
+	else if(num == 3){
+		printf("\nToday is Physics class at 9:00 AM to 12:00 PM");
+	}
+		else if(num == 4){
+		printf("\nToday is  English class at 9:00 AM to 12:00 PM");
+	}
+		else if(num == 5){
+		printf("\nToday is Math class at 9:00 AM to 12:00 PM");
+	}
+		else if(num == 6){
+		printf("\nToday is Saturday and all classes are off");
+	}
+		else if(num == 7){
+		printf("\nToday is Sunday and all class are off");
+	}
+	else{
+		printf("Sorry you have entered invalid number, Please Enter only 1 to 7 for schedule");
+	}
+	
+	return 0;
+	
+}
