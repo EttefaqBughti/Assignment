@@ -1,0 +1,10 @@
+1) Display a messege ("Enter Volume");
+2) Take input from user keybord.
+3) Display avalible choices...
+4) Take input from  user keybord.
+5) Perform conversation 
+6) If (choice == 1) then
+   result is = amount * 3.785f
+7) else if (choice == 2)
+   result is = amount / 0.264f
+8) Display result.
